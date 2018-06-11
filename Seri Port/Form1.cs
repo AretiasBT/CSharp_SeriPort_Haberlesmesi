@@ -265,7 +265,6 @@ namespace Seri_Port
         {
             txtAlinan.Text = txtAlinan.Text + serialPort1.ReadExisting() + "\r\n";
             txtAlinan.Select(txtAlinan.Text.Length, 0);
-            txtAlinan.ScrollToCaret();
         }
     }
 }
